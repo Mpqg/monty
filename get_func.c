@@ -15,6 +15,7 @@ void (*get_method(char *method))(stack_t **stack, unsigned int line_number)
 		{"pop", pop},
 		{"add", add},
 		{"swap", swap},
+		{"sub", sub},
 		{NULL, NULL},
 	};
 
